@@ -1,0 +1,60 @@
+# Java / Gradle
+.gradle/
+build/
+out/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+!**/gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/out/
+!**/src/test/**/out/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+*.hprof
+hs_err_pid*
+replay_pid*
+
+# Frontend
+node_modules/
+dist/
+coverage/
+
+# Local configuration / runtime files
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.sample
+.env-backups/
+.project-backups/
+*.log
+logs/
+src/backend/*.db
+src/backend/*.sqlite3
+
+# Editor / OS
+.idea/
+.vscode/
+*.iws
+*.iml
+*.ipr
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+.DS_Store
+Thumbs.db
+
+# Generated Spring Initializr reference
+/src/backend/HELP.md
