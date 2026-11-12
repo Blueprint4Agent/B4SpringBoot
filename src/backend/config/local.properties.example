@@ -1,0 +1,12 @@
+spring.profiles.active=postgresql
+DB_URL=jdbc:postgresql://localhost:15432/b4springboot
+DB_USERNAME=b4springboot
+DB_PASSWORD=change-me-local
+
+# SQLite example
+# spring.profiles.active=sqlite
+# DB_URL=jdbc:sqlite:b4springboot.db
+
+# MySQL URL example
+# spring.profiles.active=mysql
+# DB_URL=jdbc:mysql://localhost:3306/b4springboot

@@ -35,6 +35,7 @@ coverage/
 logs/
 src/backend/*.db
 src/backend/*.sqlite3
+/src/backend/config/local.properties
 
 # Editor / OS
 .idea/
